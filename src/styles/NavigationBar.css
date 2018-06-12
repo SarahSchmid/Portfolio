@@ -1,0 +1,55 @@
+.NavigationBar {
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    /*border: 1px solid #e7e7e7;*/
+    background-color: #f1f1f1;
+    z-index: 500;
+}
+
+.navigation-item {
+    font-family: sans-serif;
+    font-weight: 300;
+    float: right;
+}
+
+.name {
+    font-family: Gill Sans, sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    display: block;
+    margin-left: 60px;
+    color: black;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    float: left;
+}
+
+.name .link {
+    padding: 0;
+}
+
+.last {
+    margin-right: 60px;
+}
+
+.link {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.link:hover:not(.active) {
+    color: #129198;
+}
