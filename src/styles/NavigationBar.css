@@ -22,12 +22,12 @@
 .name {
     font-family: Gill Sans, sans-serif;
     font-weight: 100;
-    font-size: 36px;
+    font-size: 32px;
     display: block;
     margin-left: 60px;
     color: black;
     text-align: center;
-    padding: 7px 8px;
+    padding: 6px 8px;
     text-decoration: none;
     float: left;
 }

@@ -1,0 +1,8 @@
+.Startpage {
+    background: url("../images/background_startpage.jpg") no-repeat fixed center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    opacity: 0.5;
+    position: relative;
+}
