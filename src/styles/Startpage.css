@@ -19,7 +19,7 @@
 .introduction {
     font-family: Gill Sans, sans-serif;
     color: white;
-    position: fixed;
+    position: absolute;
     text-align: center;
     float: right;
     right: 70px;

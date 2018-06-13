@@ -1,0 +1,22 @@
+#About {
+    font-family: Gill Sans, sans-serif;
+    font-weight: 100;
+    padding: 20px 0;
+}
+
+.headline {
+    font-weight: 100;
+    margin: 40px 0 50px 0;
+    clear: both;
+}
+
+.picture {
+    float: left;
+    margin: 0 50px;
+}
+
+.description {
+    margin: 10px 50px;
+    line-height: 25px;
+    font-size: larger;
+}
