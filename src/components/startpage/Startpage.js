@@ -5,8 +5,13 @@ import "../../styles/Startpage.css";
 export class Startpage extends Component{
     render(){
         return (
-            <div className="Startpage">
-                <SocialMediaButtons/>
+            <div id="Startpage">
+                <div className="introduction">
+                    <h1>Sarah Schmid</h1>
+                    <div className="subtitle">Software Developer & Scrum Mistress</div>
+                    <SocialMediaButtons/>
+                </div>
+
             </div>
         );
     }
