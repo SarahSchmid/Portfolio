@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import introductionPicture from '../images/introduction.jpg';
 import '../styles/Introduction.css';
+import '../App.css';
 
 export class Introduction extends Component{
     render(){

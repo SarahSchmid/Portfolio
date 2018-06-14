@@ -1,0 +1,22 @@
+#Contact{
+    font-family: Gill Sans, sans-serif;
+    font-weight: 100;
+    padding: 20px 0;
+    align-content: center;
+}
+.center {
+    width: 680px;
+    display: inline-block;
+}
+
+.contactInformation {
+    width: 320px;
+    font-size: x-large;
+    float: left;
+    margin: 44px 40px 0 0;
+}
+
+.contactLink {
+    text-decoration: none;
+    color: #129198;
+}
