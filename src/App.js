@@ -4,6 +4,7 @@ import {Startpage} from './components/startpage/Startpage';
 import {Introduction} from "./components/Introduction";
 import {Contact} from "./components/Contact";
 import './App.css';
+import {Footer} from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <Introduction/>
             <div className="topicHeader">CONTACT</div>
             <Contact/>
+            <Footer/>
         </div>
     );
   }

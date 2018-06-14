@@ -13,7 +13,7 @@ export class Introduction extends Component{
                 <div>
 
                 <div className="picture">
-                    <img src={introductionPicture}/>
+                    <img src={introductionPicture} alt="Introduction"/>
                 </div>
                 <div className="description">
                     <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Maecenas porta congue lobortis. Nullam facilisis blandit egestas. Quisque at ultrices dolor. Sed interdum turpis euismod vulputate venenatis. Phasellus congue porta libero, et suscipit mauris tincidunt at. In sit amet mauris lacinia, fermentum tortor vitae, euismod quam. Mauris porta mollis ultricies. Etiam scelerisque massa ultricies metus sodales efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In et elit lacinia, convallis tortor ut, bibendum risus. Proin mauris lorem, faucibus eleifend diam non, varius facilisis augue.

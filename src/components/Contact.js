@@ -26,7 +26,7 @@ export class Contact extends Component{
                         <a className="contactLink" href={githubUrl}><p><FontAwesomeIcon icon={faGithub}/> Github</p></a>
                     </div>
                     <div className="contactPicture">
-                        <img src={contactPicture}/>
+                        <img src={contactPicture} alt="Contact"/>
                     </div>
                 </div>
             </div>
