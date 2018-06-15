@@ -2,16 +2,19 @@ import React, {Component} from 'react';
 import '../../styles/Projects.css';
 import '../../App.css';
 
-const githubUrl = "https://github.com/SarahSchmid/Portfolio";
 const target = "_blank";
 
 export class Project extends Component{
     render(){
         return (
-            <div>
-                <div className="hexWrapper">
-                    <div className="bigHex">
-                        <a target={target} href={githubUrl}>Portfolio</a>
+            <div className="item">
+                <img src={this.props.imgSrc} className="image"/>
+                <div className="overlay">
+                    <div className="projectDescription">
+                        <h1>{this.props.title}</h1>
+                        <p>{this.props.description}</p>
+                        <p><a target={target} href={this.props.repoUrl}>Click here for the repository</a></p>
+                        <p><a target={target} href={this.props.appUrl}>Click here for the application</a></p>
                     </div>
                 </div>
 
