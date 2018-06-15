@@ -7,6 +7,7 @@ export class Introduction extends Component{
     render(){
         return(
             <div id="About">
+                <div className="topicHeader">ABOUT</div>
                 <h1 className="headline">
                     Sarah Schmid - passionate developer & CleanCode enthusiast
                 </h1>

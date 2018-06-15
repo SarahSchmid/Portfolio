@@ -13,11 +13,8 @@ class App extends Component {
         <div className="App">
             <NavigationBar/>
             <Startpage/>
-            <div className="topicHeader">ABOUT</div>
             <Introduction/>
-            <div className="topicHeader">PROJECTS</div>
             <ProjectOverview/>
-            <div className="topicHeader">CONTACT</div>
             <Contact/>
             <Footer/>
         </div>
