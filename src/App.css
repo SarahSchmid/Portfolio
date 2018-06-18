@@ -1,11 +1,12 @@
 .App {
   text-align: center;
+  background-color: #F8F8F8;
 }
 
 .topicHeader {
-  background-color: #f1f1f1;
+  background-color: #d6d6d6;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 70px;
   font-family: Gill Sans, sans-serif;
   font-weight: 100;
   color: #129198;
