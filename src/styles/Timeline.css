@@ -1,0 +1,38 @@
+#Timeline {
+    font-family: Gill Sans, sans-serif;
+    font-weight: 100;
+    padding: 0 0 110px 0;
+    align-content: center;
+}
+
+.timeline {
+    margin-top: 40px;
+}
+
+.dates {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.text-center {
+    align-content: center;
+}
+
+.timelineTitle {
+    font-weight: 100;
+    font-size: xx-large;
+    margin-top: 60px;
+}
+
+.timelineDate {
+    font-size: x-large;
+    margin: 40px 0;
+
+}
+
+.timelineDescription {
+    font-size: larger;
+    padding: 0 150px;
+}
+
