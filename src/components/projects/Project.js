@@ -8,7 +8,7 @@ export class Project extends Component{
     render(){
         return (
             <div className="item">
-                <img src={this.props.imgSrc} className="image"/>
+                <img src={this.props.imgSrc} alt="Project" className="image"/>
                 <div className="overlay">
                     <div className="projectDescription">
                         <h1>{this.props.title}</h1>
