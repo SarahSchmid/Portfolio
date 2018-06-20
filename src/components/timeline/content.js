@@ -42,9 +42,15 @@ module.exports= [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget quam non urna rutrum consectetur vitae quis lacus. Nam suscipit dignissim dui, id cursus est auctor et. Vestibulum arcu neque, mattis nec tincidunt vitae, auctor eu nunc. Cras sapien purus, ultricies vitae velit eget, laoreet iaculis erat. Nunc volutpat luctus justo vitae dictum. Donec commodo congue sem, et volutpat lectus sollicitudin vitae. Phasellus venenatis lobortis dui id consequat. Sed tincidunt nisi sed odio aliquet, vel egestas magna faucibus. Proin egestas nulla eget lacinia ultrices. Duis risus neque, efficitur sed viverra et, sagittis vel felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
     },
     {
-        date: "12. April 2016",
+        date: "01. August 2015 - 30. November 2016",
+        title: "Scrum Master",
+        subtitle:"Dating Cafe Online GmbH, Hamburg, Germany",
+        description: "During my apprenticeship I became the Scrum Master of our small team. "
+    },
+    {
+        date: "13. April 2016",
         title: "Qualification as Certified Scrum Master (CSM)",
-        subtitle: "it-agile GmbH, Hamburg, Germany",
+        subtitle: "Scrum Alliance, Inc. / it-agile GmbH, Hamburg, Germany",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget quam non urna rutrum consectetur vitae quis lacus. Nam suscipit dignissim dui, id cursus est auctor et. Vestibulum arcu neque, mattis nec tincidunt vitae, auctor eu nunc. Cras sapien purus, ultricies vitae velit eget, laoreet iaculis erat. Nunc volutpat luctus justo vitae dictum. Donec commodo congue sem, et volutpat lectus sollicitudin vitae. Phasellus venenatis lobortis dui id consequat. Sed tincidunt nisi sed odio aliquet, vel egestas magna faucibus. Proin egestas nulla eget lacinia ultrices. Duis risus neque, efficitur sed viverra et, sagittis vel felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "
     },
     {

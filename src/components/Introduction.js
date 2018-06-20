@@ -28,16 +28,3 @@ export class Introduction extends Component{
         );
     }
 }
-
-/* Als fullstack entwicklerin mit einer passion fürs frontend
-fluent with Groovy, Java and Javascript
-competent with grails, jquery, react, spring boot
-
-geboren und aufgewachsen in hamburg,
-es hat mich aber schon in die unterschiedlichsten Städte verschlagen. Nächstes großes Zeil: Silicon Valley.
-
-Lange zeit wusste ich nicht wo ich hinmöchte, was meine passion ist also probierte ich mich in Bereichen wie "Hotellerie", Fahrzeuglackierung, Servicekraft und schlussendlich als Entwicklerin aus.
-Der letzte war eindeutig ein volltreffer, denn in der Entwicklung habe ich endlich gefunden was ich gesucht habe: etwas was ich den rest meines Lebens machen möchte.
-Aber auch dieser Weg war leider mit einigen Stolpersteinen besetzt.
-Ich liebe es mich mit neuen technologien auseinanderzusetzen und erlerntes anzuwenden. Grade der front end Bereicht ist etwas was ich mit großer Freude ausüber
- */
