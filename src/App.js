@@ -19,7 +19,9 @@ class App extends Component {
                       <h2 className="timelineTitle">{data.title}</h2>
                       <i className="timelineSubtitle">{data.subtitle}</i>
                       <p className="timelineDate">{data.date}</p>
-                      <p className="timelineDescription">{data.description}</p>
+                      <div className="foobar">
+                        <p className="timelineDescription">{data.description}</p>
+                      </div>
                   </div>
               )
           });

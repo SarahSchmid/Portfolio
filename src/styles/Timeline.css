@@ -17,6 +17,7 @@
 
 .text-center {
     align-content: center;
+    margin-bottom: 20px;
 }
 
 .timelineTitle {
@@ -31,8 +32,34 @@
 
 }
 
+.foobar {
+
+}
+
 .timelineDescription {
     font-size: larger;
     padding: 0 150px;
+}
+
+.download {
+    margin-top: 40px;
+}
+
+.downloadButton {
+    border: 2px solid #129198;
+    background-color: transparent;
+    color: #129198;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    right: 20%;
+    transition: background-color 300ms ease;
+
+}
+
+.downloadButton:hover {
+    background-color: #129198;
+    color: white;
 }
 

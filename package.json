@@ -15,6 +15,7 @@
     "react-scripts": "1.1.4",
     "react-swipeable-views": "^0.12.14"
   },
+  "main": "bundle.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
