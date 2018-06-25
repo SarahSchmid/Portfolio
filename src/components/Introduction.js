@@ -1,17 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
 import introductionPicture from '../images/introduction.jpg';
 import '../styles/Introduction.css';
 import '../App.css';
 
-export class Introduction extends Component{
-    render(){
-        return(
-            <div id="About">
-                <div className="topicHeader">ABOUT</div>
-                <h1 className="headline">
-                    Sarah Schmid - passionate engineer & CleanCode enthusiast
-                </h1>
-                <div>
+const Introduction = () => {
+    return(
+        <div id="About">
+            <div className="topicHeader">ABOUT</div>
+            <h1 className="headline">
+                Sarah Schmid - passionate engineer & CleanCode enthusiast
+            </h1>
+            <div>
 
                 <div className="picture">
                     <img src={introductionPicture} alt="Introduction"/>
@@ -23,8 +22,9 @@ export class Introduction extends Component{
 
                     Morbi sit amet mauris sit amet ex suscipit venenatis. Nulla pulvinar sagittis ante, vel fringilla dui vehicula nec. Nullam ultrices ipsum urna, vel lobortis lacus condimentum vel. Mauris quis vestibulum urna. Praesent facilisis commodo laoreet. Integer congue turpis eu iaculis ullamcorper. Donec turpis odio, consectetur quis odio ut, accumsan tincidunt turpis. Sed nec placerat turpis. Donec a luctus libero, a cursus neque. Donec suscipit sit amet massa id volutpat. Etiam molestie neque rhoncus tellus blandit vehicula. Mauris augue quam, porttitor nec orci quis, fermentum vestibulum leo. In hac habitasse platea dictumst. Vivamus aliquet non libero sit amet porttitor. Curabitur sit amet nisi faucibus, tempus tortor a, molestie risus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                 </div>
-                </div>
             </div>
-        );
-    }
-}
+        </div>
+    );
+};
+
+export default Introduction;
