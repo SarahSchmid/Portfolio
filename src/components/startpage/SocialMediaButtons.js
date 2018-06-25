@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {faLinkedinIn, faXing, faGithub} from '@fortawesome/fontawesome-free-brands';
 import {faEnvelope} from '@fortawesome/fontawesome-free-regular';
@@ -11,30 +11,31 @@ const mailUrl = "mailto:sarah@schmid.hamburg";
 const target = "_blank";
 
 
-export class SocialMediaButtons extends Component{
-    render(){
-        return (
-            <div>
-                <div className="hexagon">
-                    <a className="button" target={target} href={linkedInUrl}>
-                        <FontAwesomeIcon icon={faLinkedinIn} size="lg" className="icon"/>
-                    </a>
-                </div>
-                <div className="hexagon">
-                    <a className="button" target={target} href={xingUrl}>
-                        <FontAwesomeIcon icon={faXing} size="lg" className="icon"/>
-                    </a>
-                </div>
-                <div className="hexagon">
-                    <a className="button" target={target} href={githubUrl}>
-                        <FontAwesomeIcon icon={faGithub} size="lg" className="icon"/>
-                    </a>
-                </div>
-                <div className="hexagon">
-                    <a className="button" target={target} href={mailUrl}>
-                        <FontAwesomeIcon icon={faEnvelope} size="lg" className="icon"/>
-                    </a>
-                </div>
-            </div>);
-    }
-}
+const SocialMediaButtons = () => {
+    return (
+        <div>
+            <div className="hexagon">
+                <a className="button" target={target} href={linkedInUrl}>
+                    <FontAwesomeIcon icon={faLinkedinIn} size="lg" className="icon"/>
+                </a>
+            </div>
+            <div className="hexagon">
+                <a className="button" target={target} href={xingUrl}>
+                    <FontAwesomeIcon icon={faXing} size="lg" className="icon"/>
+                </a>
+            </div>
+            <div className="hexagon">
+                <a className="button" target={target} href={githubUrl}>
+                    <FontAwesomeIcon icon={faGithub} size="lg" className="icon"/>
+                </a>
+            </div>
+            <div className="hexagon">
+                <a className="button" target={target} href={mailUrl}>
+                    <FontAwesomeIcon icon={faEnvelope} size="lg" className="icon"/>
+                </a>
+            </div>
+        </div>
+    );
+};
+
+export default SocialMediaButtons;
