@@ -6,36 +6,18 @@ import {Timeline} from "./components/timeline/Timeline";
 import {ProjectOverview} from "./components/projects/ProjectOverview";
 import {Contact} from "./components/Contact";
 import {Footer} from "./components/Footer";
-import CVData from "./components/timeline/content";
 import './App.css';
 
 class App extends Component {
 
-  componentWillMount(){
-      this.data = CVData.map((data, index) => {
-          return ({
-              component: (
-                  <div key={index}>
-                      <h2 className="timelineTitle">{data.title}</h2>
-                      <i className="timelineSubtitle">{data.subtitle}</i>
-                      <p className="timelineDate">{data.date}</p>
-                      <div className="foobar">
-                        <p className="timelineDescription">{data.description}</p>
-                      </div>
-                  </div>
-              )
-          });
-
-      });
-  }
-
   render() {
-    return (
+
+      return (
         <div className="App">
             <NavigationBar/>
             <Startpage/>
             <Introduction/>
-            <Timeline content={this.data}/>
+            <Timeline/>
             <ProjectOverview/>
             <Contact/>
             <Footer/>

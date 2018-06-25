@@ -5,6 +5,8 @@ import HorizontalTimeline from 'react-horizontal-timeline';
 import SwipeableViews from 'react-swipeable-views';
 import '../../styles/Timeline.css';
 import '../../App.css';
+import {TimelineItem} from "./TimelineItem";
+import CVData from "./content";
 
 const dates = [ '07/01/2007',
                 '09/01/2007',
@@ -29,14 +31,6 @@ export class Timeline extends Component{
 
     render(){
 
-        const view = this.props.content.map((content, index) => {
-           return (
-               <div key={index}>
-                   {content.component}
-               </div>
-           );
-        });
-
         return (
             <div id="Timeline">
                 <div className="topicHeader">TIMELINE</div>
@@ -59,8 +53,11 @@ export class Timeline extends Component{
                             index={this.state.value}
                             onChangeIndex={(value, previous) => {
                                 this.setState({ value: value, previous: previous });}}
-                            resistance
-                        >{view}</SwipeableViews>
+                            resistance>
+                            {CVData.map(data => (
+                                <TimelineItem data={data}/>
+                            ))}
+                        </SwipeableViews>
                     <div className="download">
                         <a className="downloadButton" target="_blank" rel="noopener noreferrer" href="https://www.downloadcv.de">
                             <FontAwesomeIcon icon={faFilePdf}/> Resume</a>
