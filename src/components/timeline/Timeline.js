@@ -3,7 +3,7 @@ import HorizontalTimeline from 'react-horizontal-timeline';
 import SwipeableViews from 'react-swipeable-views';
 import TimelineItem from "./TimelineItem";
 import ResumeDownload from "./ResumeDownload";
-import CVData from "./content";
+import CVData from "./CVItems";
 import '../../styles/Timeline.css';
 import '../../App.css';
 
