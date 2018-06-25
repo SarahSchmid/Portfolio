@@ -8,7 +8,7 @@ export class Startpage extends Component{
             <div id="Startpage">
                 <div className="introduction">
                     <h1>Sarah Schmid</h1>
-                    <div className="subtitle">Software Developer & Scrum Mistress</div>
+                    <div className="subtitle">Software Engineer & Scrum Mistress</div>
                     <SocialMediaButtons/>
                 </div>
 

@@ -9,7 +9,7 @@ export class Introduction extends Component{
             <div id="About">
                 <div className="topicHeader">ABOUT</div>
                 <h1 className="headline">
-                    Sarah Schmid - passionate developer & CleanCode enthusiast
+                    Sarah Schmid - passionate engineer & CleanCode enthusiast
                 </h1>
                 <div>
 
