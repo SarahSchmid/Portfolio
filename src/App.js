@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {NavigationBar} from "./components/NavigationBar";
-import {Startpage} from './components/startpage/Startpage';
+import Startpage from './components/startpage/Startpage';
 import Introduction from "./components/Introduction";
 import {Timeline} from "./components/timeline/Timeline";
 import ProjectOverview from "./components/projects/ProjectOverview";
