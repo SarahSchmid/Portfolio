@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {faFilePdf} from '@fortawesome/fontawesome-free-regular';
 import HorizontalTimeline from 'react-horizontal-timeline';
 import SwipeableViews from 'react-swipeable-views';
+import TimelineItem from "./TimelineItem";
+import ResumeDownload from "./ResumeDownload";
+import CVData from "./content";
 import '../../styles/Timeline.css';
 import '../../App.css';
-import {TimelineItem} from "./TimelineItem";
-import CVData from "./content";
 
 export class Timeline extends Component{
     constructor(props){
@@ -20,8 +19,8 @@ export class Timeline extends Component{
         return (
             <div id="Timeline">
                 <div className="topicHeader">TIMELINE</div>
-                <div className="timeline">
-                    <div className="dates">
+                <div className="timelineArea">
+                    <div className="timeline">
                         <HorizontalTimeline index={this.state.value}
                                             indexClick={(index) => {
                                                 this.setState({ value: index, previous: this.state.value });
@@ -36,7 +35,7 @@ export class Timeline extends Component{
                                             minEventPadding={20}
                                             maxEventPadding={220}/>
                     </div>
-                    <div className="text-center">
+                    <div className="swipeableView">
                         <SwipeableViews
                             index={this.state.value}
                             onChangeIndex={(value, previous) => {
@@ -46,11 +45,8 @@ export class Timeline extends Component{
                                 <TimelineItem data={data}/>
                             ))}
                         </SwipeableViews>
-                    <div className="download">
-                        <a className="downloadButton" target="_blank" rel="noopener noreferrer" href="https://www.downloadcv.de">
-                            <FontAwesomeIcon icon={faFilePdf}/> Resume</a>
                     </div>
-                    </div>
+                    <ResumeDownload/>
                 </div>
             </div>
         );

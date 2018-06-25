@@ -5,17 +5,17 @@
     align-content: center;
 }
 
-.timeline {
+.timelineArea {
     margin-top: 40px;
 }
 
-.dates {
+.timeline {
     width: 80%;
     height: 100px;
     margin: 0 auto;
 }
 
-.text-center {
+.swipeableView {
     align-content: center;
     margin-bottom: 20px;
 }
