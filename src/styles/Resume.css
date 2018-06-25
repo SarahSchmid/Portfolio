@@ -1,11 +1,11 @@
-#Timeline {
+#Resume {
     font-family: Gill Sans, sans-serif;
     font-weight: 100;
     padding: 0 0 110px 0;
     align-content: center;
 }
 
-.timelineArea {
+.resume {
     margin-top: 40px;
 }
 
@@ -20,19 +20,19 @@
     margin-bottom: 20px;
 }
 
-.timelineTitle {
+.resumeTitle {
     font-weight: 100;
     font-size: xx-large;
     margin-top: 60px;
 }
 
-.timelineDate {
+.resumeDate {
     font-size: x-large;
     margin: 40px 0;
 
 }
 
-.timelineDescription {
+.resumeDescription {
     font-size: larger;
     padding: 0 150px;
 }

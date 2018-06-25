@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavigationBar from "./components/NavigationBar";
 import Startpage from './components/startpage/Startpage';
 import Introduction from "./components/Introduction";
-import {Timeline} from "./components/timeline/Timeline";
+import {Resume} from "./components/resume/Resume";
 import ProjectOverview from "./components/projects/ProjectOverview";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -17,7 +17,7 @@ class App extends Component {
             <NavigationBar/>
             <Startpage/>
             <Introduction/>
-            <Timeline/>
+            <Resume/>
             <ProjectOverview/>
             <Contact/>
             <Footer/>

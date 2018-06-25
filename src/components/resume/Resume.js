@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import HorizontalTimeline from 'react-horizontal-timeline';
 import SwipeableViews from 'react-swipeable-views';
-import TimelineItem from "./TimelineItem";
+import ResumeInformations from "./ResumeInformations";
 import ResumeDownload from "./ResumeDownload";
 import CVData from "./CVItems";
-import '../../styles/Timeline.css';
+import '../../styles/Resume.css';
 import '../../App.css';
 
-export class Timeline extends Component{
+export class Resume extends Component{
     constructor(props){
      super(props);
      this.state = {value: 0, previous: 0, eventName:""};
@@ -17,9 +17,9 @@ export class Timeline extends Component{
     render(){
 
         return (
-            <div id="Timeline">
-                <div className="topicHeader">TIMELINE</div>
-                <div className="timelineArea">
+            <div id="Resume">
+                <div className="topicHeader">RESUME</div>
+                <div className="resume">
                     <div className="timeline">
                         <HorizontalTimeline index={this.state.value}
                                             indexClick={(index) => {
@@ -42,7 +42,7 @@ export class Timeline extends Component{
                                 this.setState({ value: value, previous: previous });}}
                             resistance>
                             {CVData.map(data => (
-                                <TimelineItem data={data}/>
+                                <ResumeInformations data={data}/>
                             ))}
                         </SwipeableViews>
                     </div>
