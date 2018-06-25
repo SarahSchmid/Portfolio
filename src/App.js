@@ -5,7 +5,7 @@ import {Introduction} from "./components/Introduction";
 import {Timeline} from "./components/timeline/Timeline";
 import {ProjectOverview} from "./components/projects/ProjectOverview";
 import {Contact} from "./components/Contact";
-import {Footer} from "./components/Footer";
+import Footer from "./components/Footer";
 import './App.css';
 
 class App extends Component {
