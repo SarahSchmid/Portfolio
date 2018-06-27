@@ -10,7 +10,8 @@ import '../../App.css';
 export class Resume extends Component{
     constructor(props){
      super(props);
-     this.state = {value: 0, previous: 0, eventName:""};
+     const dataLength = CVData.length - 1;
+     this.state = {value: dataLength, previous: dataLength, eventName:""};
 
     }
 
