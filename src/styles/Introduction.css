@@ -14,3 +14,7 @@
     line-height: 25px;
     font-size: larger;
 }
+
+.description a {
+    color: #129198;
+}
