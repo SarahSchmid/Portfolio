@@ -1,5 +1,4 @@
 import React from 'react';
-import introductionPicture from '../images/introduction.jpg';
 import '../styles/Introduction.css';
 import '../App.css';
 
@@ -11,20 +10,16 @@ const Introduction = () => {
                 Sarah Schmid - passionate engineer & CleanCode enthusiast
             </h1>
             <div>
-
-                <div className="picture">
-                    <img src={introductionPicture} alt="Introduction"/>
-                </div>
                 <div className="description">
                     <p>I'm a full stack engineer, with a passion for front end. I'm fluent in Java,
                         Groovy and JavaScript and quite competent in frameworks and technologies like Grails, Spring,
-                        React, Docker and Git. I love getting the opportunity to learn an create new things almost every
+                        React, Docker and Git. I love getting the opportunity to learn and create new things almost every
                         day and I'm sure that I'll do it for the rest of my life.</p>
 
                     <p>I was born and raised in Hamburg. My parents were both hotel managers.
                         In fact it was pretty clear that I had to try it. So I started an apprenticeship as a hotel
                         specialist, but I realized soon that it's not the kind of job I want to do. I wanted something
-                        creative . I stumbled through some jobs over a few years, not knowing what I want to do but a
+                        creative. I stumbled through some jobs over a few years, not knowing what I want to do but a
                         lucky coincidence happened as I ran into the booth of the SAE Institute on a convention. Two
                         months later I studied Games Programming at the SAE Institute, followed by an apprenticeship as
                         IT-Specialist for Software Development. I immediately knew that coding was my passion.

@@ -4,7 +4,7 @@ import {faLinkedinIn, faXing, faGithub} from '@fortawesome/fontawesome-free-bran
 import {faEnvelope} from '@fortawesome/fontawesome-free-regular';
 import "../styles/Contact.css";
 import "../App.css";
-import contactPicture from "../images/contact_picture.jpg";
+import contactPicture from "../images/introduction.jpg";
 
 const linkedInUrl = "https://www.linkedin.com/in/sasahamburg/";
 const xingUrl = "https://www.xing.com/profile/Sarah_Schmid25";
@@ -17,7 +17,7 @@ const Contact = () => {
         <div id="Contact">
             <div className="topicHeader">CONTACT</div>
             <h1 className="headline">
-                Contact me, if you like what you see ;)
+                Contact me, if I could be your next code monkey ;)
             </h1>
             <div className="center">
                 <div className="contactInformation">
@@ -34,9 +34,7 @@ const Contact = () => {
                         <p><FontAwesomeIcon icon={faGithub}/> Github</p>
                     </a>
                 </div>
-                <div className="contactPicture">
-                    <img src={contactPicture} alt="Contact"/>
-                </div>
+                <img className="contactPicture" src={contactPicture} alt="Contact"/>
             </div>
         </div>
     );
