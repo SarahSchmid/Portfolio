@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import NavigationBar from "./components/NavigationBar";
+import NavigationBar from "./components/navigation/NavigationBar";
 import Startpage from './components/startpage/Startpage';
 import Introduction from "./components/Introduction";
 import {Resume} from "./components/resume/Resume";
