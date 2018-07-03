@@ -4,7 +4,7 @@ import Startpage from './components/startpage/Startpage';
 import Introduction from "./components/Introduction";
 import {Resume} from "./components/resume/Resume";
 /*import ProjectOverview from "./components/projects/ProjectOverview";*/
-import Contact from "./components/Contact";
+import Contact from "./components/contact/Contact";
 import Footer from "./components/Footer";
 import './App.css';
 
