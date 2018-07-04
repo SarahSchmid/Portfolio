@@ -2,23 +2,23 @@ import React from 'react';
 import {Project} from "./Project";
 import '../../App.css';
 import '../../styles/Projects.css';
-import portfolioImageSrc from '../../images/portfolio.png';
+import travelMapImageSrc from '../../images/heregoes.png';
 
-/*Portfolio*/
-const portfolioRepoUrl = "https://github.com/SarahSchmid/Portfolio";
-const portfolioDescription = "My personal page which I use to share my current projects and tell you cool stuff about myself";
-const portfolioAppUrl = "http://schmid.hamburg";
+/*Travel Map*/
+const travelMapRepoUrl = "https://github.com/SarahSchmid/travel-map";
+const travelMapDescription = "My travel map where I share my favorite spots of planet earth";
+const travelMapAppUrl = "http://heregoes.schmid.hamburg";
 
 const ProjectOverview = () => {
     return (
         <div id="Projects">
             <div className="topicHeader">PROJECTS</div>
             <div className="projectWrapper">
-                <Project imgSrc={portfolioImageSrc}
-                         repoUrl={portfolioRepoUrl}
-                         appUrl={portfolioAppUrl}
-                         description={portfolioDescription}
-                         title="Portfolio"/>
+                <Project imgSrc={travelMapImageSrc}
+                         repoUrl={travelMapRepoUrl}
+                         appUrl={travelMapAppUrl}
+                         description={travelMapDescription}
+                         title="Travel Map"/>
             </div>
 
         </div>
