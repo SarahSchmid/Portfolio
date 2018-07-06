@@ -41,6 +41,7 @@
 }
 
 .projectDescription {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,83 +55,11 @@
     color: #129198;
 }
 
+.projectDescription p {
+    margin: 10px;
+}
+
 .projectDescription h1 {
     font-weight: 100;
-    padding: 15px 0;
-
+    margin: 10px;
 }
-
-
-/*
-Old idea about displaying the project in a hexagon.
-Maybe I'll implement it later ;)
-*/
-
-
-/*.hexWrapper{
-    margin: 20px;
-    padding-top: 20px;
-    width: 250px;
-    height: 270px;
-    float: left;
-}
-
-.bigHex {
-    position: relative;
-    width: 145px;
-    height: 246px;
-    background-color: transparent;
-    cursor: pointer;
-    transform: rotate(-90deg);
-    display: inline-block;
-    transition: background-color 300ms ease;
-    border-top: solid 2px #129198;
-    border-bottom: solid 2px #129198;
-    border-radius: 4px 6px 5px 4px;
-    text-align: center;
-    margin: 0 40px 0 0;
-}
-
-.bigHex:last-child {
-    margin-right: 0px;
-}
-
-.bigHex:before, .bigHex:after {
-    position: absolute;
-    width: inherit; height: inherit;
-    background: inherit;
-    content: '';
-    z-index: -1;
-    border-top: solid 2px #129198;
-    border-bottom: solid 2px #129198;
-    top: 0;
-}
-
-.bigHex::before {
-    transform: rotate(60deg);
-    border-radius: 3px 7px 4px 5px;
-    width: 145px;
-    height: 245px;
-    left: 0;
-}
-
-.bigHex::after {
-    transform: rotate(-60deg);
-    border-radius: 7px 3px 5px 6px;
-    width: 145px;
-    height: 245px;
-    left: -1px;
-}
-
-.bigHex a {
-    display: block;
-    height: 100%;
-    line-height: 50px;
-    transform: rotate(90deg);
-    position: relative;
-    left: -100px;
-    font-size: xx-large;
-    text-decoration: none;
-    color: #129198;
-}*/
-
